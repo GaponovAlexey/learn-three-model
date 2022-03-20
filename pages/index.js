@@ -8,8 +8,10 @@ export default function Home() {
         <title>Three</title>
         <link rel='icon' href='#!' />
       </Head>
-      
-      <Main />
+      <div>hi</div>
+      <div style={{width: '10%'}} >
+        <Main />
+      </div>
     </div>
   )
 }
