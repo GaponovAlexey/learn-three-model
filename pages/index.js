@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Main from '../Components/Main'
+import Brake from '../Components/Brake'
 import Ogres from '../Components/Ogre'
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div>hi</div>
       <div style={{ width: '20%' }}>
-        <Main />
+        <Brake />
         <Ogres />
       </div>
     </div>

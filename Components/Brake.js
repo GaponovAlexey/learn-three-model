@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react/cjs/react.production.min'
 import Model from './model/Anim.js'
 
-const Main = () => {
+const Brake = () => {
   return (
     <div>
       <Canvas>
@@ -18,4 +18,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Brake
