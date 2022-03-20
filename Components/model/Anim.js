@@ -8,12 +8,11 @@ import { useEffect } from 'react/cjs/react.development'
 
 export default function Model({ ...props }) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('model/anim.glb')
+  const { nodes, materials, animations } = useGLTF('anim.glb')
   const { actions } = useAnimations(animations, group)
   useEffect(() => {
     console.log(actions);
     actions.anim.play()
-    
   },[])
   return (
     <group ref={group} {...props} dispose={null}>
@@ -32,4 +31,4 @@ export default function Model({ ...props }) {
   )
 }
 
-useGLTF.preload('model/anim.glb')
+useGLTF.preload('anim.glb')
