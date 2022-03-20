@@ -9,7 +9,7 @@ const Brake = () => {
       <Canvas>
         <OrbitControls />
         <ambientLight intensity={0.5} />
-        <pointLight color='white' intensity={1} position={[10, 10, 10]} />
+        <pointLight color='white' intensity={1}  />
         <Suspense fallback={null}>
           <Model position={[0, -0.4, 4]} />
         </Suspense>

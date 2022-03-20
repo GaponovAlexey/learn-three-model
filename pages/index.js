@@ -10,6 +10,7 @@ export default function Home() {
         <link rel='icon' href='#!' />
       </Head>
       <h1>dance</h1>
+      <marquee>Это флекс</marquee>
       <div className='container'>
         <Brake />
         <Ogres />
