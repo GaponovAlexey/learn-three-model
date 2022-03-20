@@ -11,7 +11,7 @@ const Brake = () => {
         <ambientLight intensity={0.5} />
         <pointLight color='white' intensity={1} position={[10, 10, 10]} />
         <Suspense fallback={null}>
-          <Model />
+          <Model position={[0, -0.4, 4]} />
         </Suspense>
       </Canvas>
     </div>

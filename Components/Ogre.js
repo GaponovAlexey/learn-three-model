@@ -8,10 +8,10 @@ const Ogres = () => {
     <div>
       <Canvas>
         <OrbitControls />
-        <ambientLight intensity={0.5} />
-        <pointLight color='white' intensity={1} position={[10, 10, 10]} />
+        <ambientLight intensity={1} />
+        {/* <pointLight color='white' intensity={1}  /> */}
         <Suspense fallback={null}>
-          <Ogre />
+          <Ogre position={[0, -1.2, 3]} />
         </Suspense>
       </Canvas>
     </div>

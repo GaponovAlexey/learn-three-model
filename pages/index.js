@@ -9,8 +9,8 @@ export default function Home() {
         <title>Three</title>
         <link rel='icon' href='#!' />
       </Head>
-      <div>hi</div>
-      <div style={{ width: '20%' }}>
+      <h1>dance</h1>
+      <div className='container'>
         <Brake />
         <Ogres />
       </div>
